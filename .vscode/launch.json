@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Chainlit: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "chainlit",
+            "args": ["run", "${file}"],
+            "justMyCode": true,
+            "env": {
+                "AGENT_MODULE": "simple_agent",
+                "AGENT_PARAM_NAME": "Debug Assistant"
+            }
+        }
+    ]
+}
